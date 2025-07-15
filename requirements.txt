@@ -1,0 +1,8 @@
+langchain
+langchain-google-genai      # 用于与Gemini API交互
+langchain-community         # 包含各种LLM、Embeddings、VectorStores的通用组件
+chromadb                    # 向量数据库
+pydantic                    # 用于数据模型定义
+python-dotenv               # 用于管理环境变量
+ollama                      # 用于与Ollama服务交互的Python客户端库
+modelscope                  # 用于从ModelScope下载模型资源

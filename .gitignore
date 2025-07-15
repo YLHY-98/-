@@ -1,0 +1,20 @@
+# /root/autodl-tmp/AetherMind-Agent/.gitignore
+
+# Python specific ignores
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Environments
+venv/    
+.env    
+
+# Data directory ignores - Specific to AetherMind-Agent
+# 确保这里的路径与 rag_system.py 中实际的持久化路径完全一致
+data/vector_store/ 
+
+# 其他可选，但不影响核心问题
+pip-log.txt
+*.log
+.vscode/
+.idea/
